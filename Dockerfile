@@ -1,10 +1,8 @@
-FROM ruby:3.2.10
+FROM ruby:3.4.13
 
 WORKDIR /app
 
 VOLUME /app
-
-RUN apt-get update
 
 COPY Gemfile Gemfile.lock ./
 RUN bundle install

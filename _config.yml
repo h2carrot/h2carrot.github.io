@@ -63,4 +63,13 @@ defaults:
 #   - vendor/ruby/
 exclude:
     - tools/
+    - Gemfile
+    - Gemfile.lock
+    - Rakefile
+    - README.md
+    - Dockerfile
+    - docker-compose.yml
+    - docker-compose.override.yml
+    - docker-compose.override.yml.sample
+    - vendor/
 timezone: Asia/Tokyo

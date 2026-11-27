@@ -58,8 +58,8 @@ docker compose exec app bash
 $bundle exec jekyll serve --future true --watch [--port port] [--host 0.0.0.0]
 ```
 
-Dockerの場合は、`docker-compose.override.yml` のコメントアウトを外してから
-`docker compose up` を実行すると表示することができる
+Dockerの場合は、`docker-compose.yml` で `--future true` オプションをデフォルトで付けているため、
+`docker compose up` を実行するだけで表示することができる
 
 
 ### 構成
